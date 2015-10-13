@@ -1,0 +1,317 @@
+/* Front Page
+---------------------------------------------------------------------------------------------------- */
+
+.front-page .site-inner {
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Front Page 1
+--------------------------------------------- */
+
+.front-page-1 {
+	background-image: url(images/bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size:	 cover;
+	background-size:		 cover;
+}
+
+.front-page-1 {
+	clear: both;
+	display: table;
+	overflow: hidden;
+	table-layout: fixed;
+	text-align: right;
+	width: 100%;
+}
+
+.front-page-1 .widget-area {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.front-page-1,
+.front-page-1 h2,
+.front-page-1 p {
+	color: #fff;
+}
+
+.front-page-1 h2 {
+	font-size: 72px;
+	text-decoration: underline;
+}
+
+.front-page-1 .brian {
+	font-size: 96px;
+}
+
+/* Front Page 2
+--------------------------------------------- */
+
+.front-page-2 {
+	background-color: #f5f5f5;
+	clear: both;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+.front-page-2 h2 {
+	font-size: 60px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+.front-page-2 .one-half {
+	float: left;
+	padding-right: 60px;
+	padding-top: 40px;
+	width: 50%;
+}
+
+.front-page-2 img.six-hundred {
+	float: right;
+	max-width: 600px;
+}
+
+.front-page-2 .icon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.front-page-2 a {
+	border: 2px solid #333;
+	color: #333;
+	display: inline-block;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	padding: 12px 25px;
+	text-transform: uppercase;
+}
+
+.front-page-2 a:hover {
+	border: 2px solid #333;
+	background-color: #333;
+	color: #fff;
+}
+
+
+/* Front Page 3
+--------------------------------------------- */
+
+.front-page-3 {
+	background-image: url(images/bg-3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size:	 cover;
+	background-size:		 cover;
+}
+
+.front-page-3 {
+	background-color: #fff;
+	clear: both;
+	padding-bottom: 150px;
+	padding-top: 150px;
+}
+
+.front-page-3 .wrap {
+	background: url(images/rainmaker.png) no-repeat center left;
+	background-size: 500px 500px;
+}
+
+.front-page-3 .one-half {
+	float: right;
+	width: 50%;
+}
+
+.front-page-3 h2 {
+	font-size: 66px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+.front-page-3 .icon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.front-page-3 a {
+	border: 2px solid #333;
+	color: #333;
+	display: inline-block;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	padding: 12px 25px;
+	text-transform: uppercase;
+}
+
+.front-page-3 a:hover {
+	border: 2px solid #333;
+	background-color: #333;
+	color: #fff;
+}
+
+
+/* Front Page 4
+--------------------------------------------- */
+
+.front-page-4 {
+	background-color: #fff;
+	clear: both;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.front-page-4 h2 {
+	font-size: 60px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+}
+
+.front-page-4 .one-half {
+	float: left;
+	padding-right: 60px;
+	padding-top: 40px;
+	width: 50%;
+}
+
+.front-page-4 img.six-hundred {
+	float: right;
+	max-width: 600px;
+}
+
+.front-page-4 .icon {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.front-page-4 a {
+	border: 2px solid #333;
+	color: #333;
+	display: inline-block;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	padding: 12px 25px;
+	text-transform: uppercase;
+}
+
+.front-page-4 a:hover {
+	border: 2px solid #333;
+	background-color: #333;
+	color: #fff;
+}
+
+
+/* Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+
+	.front-page .content {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.front-page-1 .wrap {
+		padding-right: 60px;
+	}
+
+	.front-page-1 h2 {
+		font-size: 60px;
+	}
+
+	.front-page-1 .brian {
+		font-size: 72px;
+	}
+
+	.front-page-2 .one-half,
+	.front-page-3 .one-half,
+	.front-page-4 .one-half {
+		float: left;
+		padding: 0 60px 60px;
+		width: 100%;
+	}
+
+	.front-page-2 .one-half {
+		width: 100%;
+	}
+
+	.front-page-2 img.six-hundred,
+	.front-page-4 img.six-hundred {
+		float: none;
+		margin-left: 60px;
+	}
+
+	.front-page-2 img.six-hundred {
+		margin-bottom: 60px;
+	}
+
+	.front-page-3 {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+
+	.front-page-3 .one-half {
+		padding: 0 60px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.front-page-1 .wrap {
+		padding-right: 30px;
+	}
+
+	.front-page-1 h2 {
+		font-size: 30px;
+	}
+
+	.front-page-1 .brian {
+		font-size: 48px;
+	}
+
+	.front-page-2 .one-half,
+	.front-page-3 .one-half,
+	.front-page-4 .one-half {
+		padding: 0 30px 60px;
+	}
+
+	.front-page-2 {
+		padding-top: 60px;
+	}
+
+	.front-page-2 h2,
+	.front-page-3 h2,
+	.front-page-4 h2 {
+		font-size: 36px;
+	}
+
+	.front-page-2 img.six-hundred,
+	.front-page-4 img.six-hundred {
+		display: none;
+	}
+
+	.front-page-3,
+	.front-page-4 {
+		padding-bottom: 30px;
+		padding-top: 60px;
+	}
+
+	.front-page-4 {
+		padding-bottom: 0;
+	}
+
+}

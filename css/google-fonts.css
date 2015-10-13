@@ -1,0 +1,273 @@
+/* Google Fonts
+---------------------------------------------------------------------------------------------------- */
+
+.google-fonts .site-inner {
+	max-width: 1200px;
+	padding-top: 5%;
+}
+
+.entry {
+	position: relative;
+}
+
+.entry-title {
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: 1.1;
+	position: absolute;
+	right: 20px;
+	text-align: right;
+	text-decoration: underline;
+	top: 30px;
+	width: 60%;
+	z-index: 99;
+}
+
+.google-fonts .entry-meta,
+.google-fonts .newsletter-signup {
+	display: none;
+}
+
+.gf-featured {
+	margin-bottom: 60px;
+	max-width: 960px;
+}
+
+.gf-featured-right {
+	float: right;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+.gf-half {
+	float: left;
+	padding-right: 60px;
+	width: 50%;
+}
+
+.gf-intro {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 70px;
+}
+
+.gf-fonts {
+	display: inline-block;
+	font-weight: 700;
+	margin-top: 8px;
+}
+
+.gf-forty {
+	margin-bottom: 40px;
+}
+
+.gf-number {
+	background-color: #eee;
+	border-radius: 50%;
+	display: inline-block;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	height: 50px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 12px;
+	text-align: center;
+	vertical-align: top;
+	width: 50px;
+}
+
+.gf-sample-wrap {
+	border-top: 60px solid transparent;
+	clear: both;
+	margin-top: -60px;
+}
+
+.gf-sample-left {
+	background-color: #eee;
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	padding: 16% 10% 10%;
+	position: relative;
+}
+
+.gf-sample-left.last {
+	margin-bottom: 0;
+}
+
+.gf-sample-right {
+	background-color: #eee;
+	clear: both;
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20%;
+	padding: 16% 10% 10%;
+	position: relative;
+}
+
+h4.gf-subtitle-left,
+h4.gf-subtitle-right {
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin-bottom: 60px;
+	margin-top: 0;
+	position: absolute;
+	text-decoration: underline;
+	top: 60px;
+}
+
+h4.gf-subtitle-left {
+	left: 0;
+	margin-left: -240px;
+}
+
+h4.gf-subtitle-right {
+	margin-right: -240px;
+	right: 0;
+}
+
+
+/* Individual Fonts
+--------------------------------------------- */
+
+.gf-lato {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.gf-merriweather {
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.75;
+}
+
+.gf-montserrat {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.gf-neuton {
+	font-family: 'Neuton', serif;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.375;
+}
+
+.gf-oswald {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.gf-quattrocento {
+	font-family: 'Quattrocento', serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.gf-playfair-display {
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.gf-open-sans {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.gf-roboto-slab {
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.gf-roboto {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+/* Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 960px) {
+
+	.content,
+	.gf-featured {
+		max-width: 100%;
+	}
+
+	.entry-title {
+		font-size: 48px;
+		position: initial;
+		text-align: left;
+	}
+
+	.gf-featured {
+		margin-bottom: 30px;
+	}
+
+	.gf-featured-right {
+		float: none;
+		margin-bottom: 0;
+		width: 100%;
+	}
+
+	.gf-half {
+		padding-right: 0;
+		width: 100%;
+	}
+
+	.gf-intro {
+		margin-bottom: 40px;
+	}
+
+	.gf-number {
+		margin-left: 0;
+	}
+
+	.gf-sample-left {
+		float: none;
+		margin-left: 0;
+		padding-top: 10%;
+	}
+
+	.gf-sample-right {
+		float: none;
+		margin-right: 0;
+		padding-top: 10%;
+	}
+
+	h4.gf-subtitle-left,
+	h4.gf-subtitle-right {
+		font-size: 36px;
+		margin: 0 0 30px;
+		position: initial;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.entry-title {
+		font-size: 36px;
+	}
+
+	.gf-number {
+		display: none;
+	}
+
+}
