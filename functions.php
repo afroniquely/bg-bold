@@ -7,7 +7,7 @@ include_once( get_stylesheet_directory() . '/lib/embed-github-gist.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'BG Bold' );
-define( 'CHILD_THEME_VERSION', '1.0' );
+define( 'CHILD_THEME_VERSION', '1.0.1' );
 
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'bg_enqueue_scripts_styles' );
@@ -16,7 +16,7 @@ function bg_enqueue_scripts_styles() {
 	wp_enqueue_script( 'bg-global', get_bloginfo( 'stylesheet_directory' ) . '/js/global.js', array( 'jquery' ), '1.0.0' );
 	wp_enqueue_script( 'bg-retina', get_bloginfo( 'stylesheet_directory' ) . '/js/retina.js', array( 'jquery' ), '1.0.0' );
 
-	wp_enqueue_style( 'bg-ionicons', 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'bg-ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
 
 	if ( is_single( '2140' ) ) {
 		wp_enqueue_style( 'bg-google-fonts', '//fonts.googleapis.com/css?family=Lato:700|Merriweather:300|Montserrat:700|Neuton:300|Oswald:700|Quattrocento:400|Playfair+Display:700|Open+Sans:400|Roboto+Slab:700|Roboto:300', array(), CHILD_THEME_VERSION );
