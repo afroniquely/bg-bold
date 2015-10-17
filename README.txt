@@ -12,6 +12,9 @@ To replicate the typography, you need to create a kit over at https://typekit.co
 1. Proxima Nova - Regular, Bold
 2. Futura PT - Book, Medium, Heavy
 
+FRONT PAGE
+To replicate what I have currently on my front page, create a page, set it as the static front page and use the HTML found at http://pastebin.com/35e4NRp9 as a place to start.
+
 WIDGET AREAS
 Newsletter Signup - This is the newsletter signup widget area.
 Split Left - This is the split left widget area.
