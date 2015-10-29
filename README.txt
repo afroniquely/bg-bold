@@ -28,3 +28,7 @@ CHANGELOG
 = 1.0.1 =
 * Add README.txt file
 * Make Ionicons enqueue relative path
+
+= 1.0.2 =
+* Add styling for Journal category
+* Register featured images

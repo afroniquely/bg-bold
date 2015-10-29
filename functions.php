@@ -7,7 +7,7 @@ include_once( get_stylesheet_directory() . '/lib/embed-github-gist.php' );
 
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'BG Bold' );
-define( 'CHILD_THEME_VERSION', '1.0.1' );
+define( 'CHILD_THEME_VERSION', '1.0.2' );
 
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'bg_enqueue_scripts_styles' );
@@ -32,6 +32,10 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
 
+//* Add featured images
+add_image_size( 'bg-featured', 1024, 576, TRUE );
+add_image_size( 'bg-single', 1024, 400, TRUE );
+
 //* Remove the sidebars
 unregister_sidebar( 'sidebar' );
 unregister_sidebar( 'sidebar-alt' );
@@ -44,7 +48,7 @@ add_action( 'genesis_header', 'genesis_do_nav', 12 );
 add_filter( 'genesis_search_text', 'bg_search_input_text' );
 function bg_search_input_text( $text ) {
 
-	return esc_attr( 'Search Site' );
+	return esc_attr( 'Search' );
 
 }
 
@@ -57,6 +61,16 @@ function bg_search_exclude($query) {
 	}
 
 	return $query;
+
+}
+
+// Change posts per page in the journal category
+add_action( 'pre_get_posts', 'bg_journal_posts_per_page' );
+function bg_journal_posts_per_page( $query ) {
+	
+	if( $query->is_main_query() && is_category( 'journal' ) && ! is_admin() ) {
+		$query->set( 'posts_per_page', '10' );
+	}
 
 }
 
